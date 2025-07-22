@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f5f9;
+  color: #333;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
+header {
+  text-align: center;
+  padding: 40px 10px;
+  background: #00208a;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 119, 255, 0.2);
+}
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+header .contact a {
+  color: #dff0ff;
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+
+
+section.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+section.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+section h2 {
+  color: #00208a;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+
+
+.experience h3 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #444;
+}
+.experience h3 span {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #777;
+}
+ul {
+  margin-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
